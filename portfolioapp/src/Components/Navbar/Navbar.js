@@ -20,7 +20,7 @@ const NavigationBar = () => {
                         <br></br>
                         <Container>
                             <Row >
-                                <Col className="Col"> <Nav.Link href="#home" className="navigator" >O mnie</Nav.Link></Col>
+                                <Col className="Col"> <Nav.Link href="#about-me" className="navigator" >O mnie</Nav.Link></Col>
 
 
                                 <Col className="Col"><Nav.Link href="#link" className="navigator">Wlepka</Nav.Link></Col>

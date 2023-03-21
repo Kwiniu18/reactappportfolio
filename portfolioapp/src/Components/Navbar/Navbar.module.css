@@ -3,15 +3,27 @@
 }
 
 .Row {
-    margin: auto;
-    margin-left: 20px;
+    text-align: center;
+
 }
 
 .Navbar {
-    height: 80px;
+    min-height: 80px;
 }
 
 .Logo {
     color: white;
     font-size: 25px;
+}
+
+.Col {
+    margin: 10px;
+}
+
+#basic-navbar-nav {
+    color: white;
+}
+
+.ColBtn {
+    color: white;
 }

@@ -15,20 +15,20 @@ const NavigationBar = () => {
         <Navbar bg="dark" expand="md" className={style.Navbar} >
             <Container >
                 <Navbar.Brand href="#home" className={style.Logo}>PORTFOLIO</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className={style.ColBtn} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className={style.Row}>
                         <br></br>
                         <Container>
-                            <Row className="Row">
-                                <Col> <Nav.Link href="#home" className={style.navigator} >O mnie</Nav.Link></Col>
+                            <Row >
+                                <Col className={style.Col}> <Nav.Link href="#home" className={style.navigator} >O mnie</Nav.Link></Col>
 
 
-                                <Col><Nav.Link href="#link" className={style.navigator}>Wlepka</Nav.Link></Col>
+                                <Col className={style.Col}><Nav.Link href="#link" className={style.navigator}>Wlepka</Nav.Link></Col>
 
 
 
-                                <Col><Nav.Link href="#link" className={style.navigator}>Projekty</Nav.Link></Col>
+                                <Col className={style.Col}><Nav.Link href="#projects" className={style.navigator}>Projekty</Nav.Link></Col>
                             </Row>
                         </Container>
                     </Nav>

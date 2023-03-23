@@ -131,20 +131,6 @@
   padding-left: 25px;
   padding-right: 25px;
 }
-
-@media screen and (max-width: 642px) {
-  .profile-photo {
-    margin-left: 26%;
-  }
-  .outside-container {
-    height: 650px;
-  }
-  .bi {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
 .media-links {
   width: 100%;
   text-align: center;
@@ -152,4 +138,20 @@
   margin-top: 12%;
 
   color: white;
+}
+
+@media screen and (max-width: 642px) {
+  .profile-photo {
+    margin-left: 26%;
+  }
+  .outside-container {
+    height: 700px;
+  }
+  .bi {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .media-links {
+    margin-top: 5%;
+  }
 }

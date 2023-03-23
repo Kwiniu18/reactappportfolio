@@ -43,6 +43,7 @@ input[type="checkbox"]:hover {
 }
 .accept-info {
   width: 50%;
+  max-width: 550px;
 
   margin: auto;
   margin-top: 20px;
@@ -51,6 +52,8 @@ input[type="checkbox"]:hover {
   position: relative;
   border: 1px solid white;
   padding: 10px;
+  min-width: 300px;
+  margin: auto;
 }
 .plus {
   position: absolute;
@@ -76,9 +79,27 @@ input[type="checkbox"]:hover {
   input[type="checkbox"] {
     margin-left: 60%;
   }
+  .info {
+    margin: auto;
+    left: 10px;
+  }
+  .collapsible-info {
+    width: 100%;
+  }
+  .option {
+    width: 100%;
+    margin: none;
+    left: -10px;
+  }
+  .accept-info {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 480px) {
   input[type="checkbox"] {
     margin-left: 90%;
+  }
+  .collapsible-info {
+    width: 100%;
   }
 }

@@ -50,3 +50,8 @@ a:hover {
 .project-content {
   padding: 10px;
 }
+@media screen and (max-width: 894px) {
+  .project {
+    margin-top: 50px;
+  }
+}

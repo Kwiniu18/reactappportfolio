@@ -34,22 +34,12 @@ const Projects = () => {
                   <h3>{e.title}</h3>
                   <hr></hr>
                 </div>
-                <div
-                  className="project-content"
-                  id="project-content"
-                  style={{ display: "block" }}
-                >
+                <div className="project-content" id="project-content">
                   {e.desc}
                 </div>
-                <button
-                  className="main-btn"
-                  onClick={function () {
-                    let content = document.getElementById("project-content");
-                    content.style.display = "block";
-                  }}
-                >
+                <button className="main-btn">
                   <div className="project-btn">
-                    <i class="pr bi-caret-down"></i>
+                    <i class="pr bi-box-arrow-up-right"></i>
                   </div>
                 </button>
               </div>

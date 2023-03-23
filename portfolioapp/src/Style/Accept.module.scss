@@ -21,7 +21,6 @@
   padding: 20px;
   padding-bottom: 5px;
   font-size: 20px;
-  min-width: 700px;
 }
 label {
   position: absolute;
@@ -69,4 +68,17 @@ input[type="checkbox"]:hover {
 }
 #rotate {
   transform: rotate(180deg);
+}
+@media screen and (max-width: 642px) {
+  label {
+    left: 15%;
+  }
+  input[type="checkbox"] {
+    margin-left: 60%;
+  }
+}
+@media screen and (max-width: 480px) {
+  input[type="checkbox"] {
+    margin-left: 90%;
+  }
 }

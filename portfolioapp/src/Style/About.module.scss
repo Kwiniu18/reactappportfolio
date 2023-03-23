@@ -18,7 +18,7 @@
   animation-name: blue;
   animation-iteration-count: infinite;
   animation-duration: 2s;
-  min-width: 405px;
+  min-width: 400px;
 }
 
 @keyframes blue {
@@ -125,6 +125,12 @@
   color: white;
   width: 55%;
 }
+.bi {
+  color: white;
+  font-size: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 @media screen and (max-width: 642px) {
   .profile-photo {
@@ -133,13 +139,10 @@
   .outside-container {
     height: 650px;
   }
-}
-
-.bi {
-  color: white;
-  font-size: 50px;
-  padding-left: 25px;
-  padding-right: 25px;
+  .bi {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .media-links {

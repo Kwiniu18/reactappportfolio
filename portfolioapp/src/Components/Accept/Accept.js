@@ -31,7 +31,7 @@ const Accept = () => {
               href=""
               onClick={() => {
                 let collapse = document.getElementById("collapsible-info");
-                let arrow = document.getElementById("pr");
+
                 if (collapse.style.display == "block") {
                   collapse.style.display = "none";
                 } else {
@@ -63,10 +63,14 @@ const Accept = () => {
                   class="plus bi-plus-lg"
                   onClick={() => {
                     let cookiesInfo = document.getElementById("cookies-info");
+                    let another = document.getElementById("more-info");
                     if (cookiesInfo.style.display == "block") {
                       cookiesInfo.style.display = "none";
                     } else {
                       cookiesInfo.style.display = "block";
+                    }
+                    if (another.style.display == "block") {
+                      another.style.display = "none";
                     }
                   }}
                 ></i>
@@ -85,11 +89,15 @@ const Accept = () => {
                 <i
                   class="plus bi-plus-lg"
                   onClick={() => {
+                    let another = document.getElementById("cookies-info");
                     let cookiesInfo = document.getElementById("more-info");
                     if (cookiesInfo.style.display == "block") {
                       cookiesInfo.style.display = "none";
                     } else {
                       cookiesInfo.style.display = "block";
+                    }
+                    if (another.style.display == "block") {
+                      another.style.display = "none";
                     }
                   }}
                 ></i>

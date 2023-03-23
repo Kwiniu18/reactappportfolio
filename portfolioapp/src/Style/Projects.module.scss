@@ -1,0 +1,52 @@
+.projects-div {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  color: white;
+  padding-bottom: 100px;
+  z-index: -1;
+}
+
+.project {
+  background-color: rgba(33, 37, 41, 1);
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  max-width: 250px;
+  min-width: 210px;
+  box-shadow: 15px -4px 107px 18px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 15px -4px 107px 18px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 15px -4px 107px 18px rgba(0, 0, 0, 0.55);
+}
+
+.project-name {
+  padding-top: 10px;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+}
+
+.project-btn {
+  text-align: center;
+  font-size: 30px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.main-btn {
+  background: none;
+  border: none;
+  width: 100%;
+  color: white;
+}
+
+.project-content {
+  padding: 10px;
+}

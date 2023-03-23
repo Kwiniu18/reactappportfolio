@@ -8,13 +8,14 @@ import Col from 'react-bootstrap/Col';
 
 
 
+
 const NavigationBar = () => {
 
     return (
         <Navbar bg="dark" expand="md" className="Navbar" >
             <Container >
                 <Navbar.Brand href="#home" className="Logo">PORTFOLIO</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className="col-btn" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav " className="col-btn" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="Row">
                         <br></br>

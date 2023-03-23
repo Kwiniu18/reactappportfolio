@@ -1,0 +1,97 @@
+.accept-container {
+  margin-top: 50px;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  width: 100%;
+  position: relative;
+  color: white;
+  z-index: 1;
+}
+.accept-box {
+  width: 100%;
+  margin: auto;
+  background-color: rgba(50, 74, 195, 0.73);
+  padding-bottom: 50px;
+  align-items: center;
+}
+.option {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+label {
+  position: absolute;
+  left: 45%;
+}
+input[type="checkbox"] {
+  transform: scale(3);
+  color: red;
+  outline: none;
+  margin-left: 35%;
+}
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: -2px -31px 43px 9px rgba(50, 74, 195, 0.75);
+    -webkit-box-shadow: -2px -31px 43px 9px rgba(50, 74, 195, 0.75);
+    -moz-box-shadow: -2px -31px 43px 9px rgba(50, 74, 195, 0.75);
+  }
+  25% {
+    box-shadow: -2px -31px 43px 12px rgba(50, 74, 195, 0.75);
+    -webkit-box-shadow: -2px -31px 43px 12px rgba(50, 74, 195, 0.75);
+    -moz-box-shadow: -2px -31px 43px 12px rgba(50, 74, 195, 0.75);
+  }
+  50% {
+    box-shadow: -2px -31px 43px 10px rgba(50, 74, 195, 0.75);
+    -webkit-box-shadow: -2px -31px 43px 10px rgba(50, 74, 195, 0.75);
+    -moz-box-shadow: -2px -31px 43px 10px rgba(50, 74, 195, 0.75);
+  }
+  75% {
+    box-shadow: -2px -31px 43px 7px rgba(50, 74, 195, 0.75);
+    -webkit-box-shadow: -2px -31px 43px 7px rgba(50, 74, 195, 0.75);
+    -moz-box-shadow: -2px -31px 43px 7px rgba(50, 74, 195, 0.75);
+  }
+  100% {
+    box-shadow: -2px -31px 43px 11px rgba(50, 74, 195, 0.75);
+    -webkit-box-shadow: -2px -31px 43px 11px rgba(50, 74, 195, 0.75);
+    -moz-box-shadow: -2px -31px 43px 11px rgba(50, 74, 195, 0.75);
+  }
+}
+.show-more-btn {
+  background: none;
+  border: none;
+  color: white;
+}
+.accept-info {
+  width: 50%;
+
+  margin: auto;
+  margin-top: 20px;
+}
+.info {
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+}
+.plus {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+.more-info {
+  margin-top: 15px;
+  font-size: smaller;
+}
+.terms-title {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#rotate {
+  transform: rotate(180deg);
+}

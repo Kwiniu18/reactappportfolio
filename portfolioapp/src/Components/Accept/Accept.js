@@ -21,7 +21,7 @@ const Accept = () => {
   console.log(!setChecked1);
 
   return (
-    <div className="accept-container">
+    <div className="accept-container" id="terms">
       <div className="accept-box">
         <h1 className="terms-title">Terms & Conditions</h1>
         <div className="option">
